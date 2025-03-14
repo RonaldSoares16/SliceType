@@ -1,5 +1,3 @@
-use std::io::Bytes;
-
 fn main() {
     let test_phrase = String::from("Rain formerly known as purple"); //phrase to be used
     let size = get_first_word_as_bytes(&test_phrase); // transforms the phrase into bytes and gets the first word
